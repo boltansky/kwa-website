@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{font-family: quick; src:url(fonts/Quicksand-Light.otf);}
+@font-face{font-family: osr; src:url(fonts/OpenSans-Regular.ttf);}
+@font-face{font-family: osb; src:url(fonts/OpenSans-Bold.ttf);}
+@font-face{font-family: mer; src:url(fonts/Merriweather-Regular.otf);}
+
+#header{height:80px; width:100%; background-color: white; position: fixed; top: 0; z-index: 10; font-size:12px; font-family: quick;}
+#header-logo{ position: fixed; background-image: url(image/logo.png); background-size:contain; background-repeat: no-repeat; background-position: center; left: 10px; top: 0; height: 80px; width: 80px;  }
+#header-title{position: fixed; left: 100px; top: 0; height: 80px; width: 400px; line-height: 80px; font-size: 24px}
+#header-en{position: fixed; right: 0; top: 0; height: 40px; width: 60px; text-align: center; line-height: 40px;}
+#header-kr{position: fixed; right: 0; top: 40px; height: 40px; width: 60px; text-align: center; line-height: 40px;}
+#header-contact{position: fixed; right: 80px; top: 0; height: 40px; width: 120px; text-align: center; line-height: 40px;}
+#header-members{position: fixed; right: 80px; top: 40px; height: 40px; width: 120px; text-align: center; line-height: 40px;}
+#header-menu{position: fixed; right: 180px; top: 0; height: 80px; width: 120px; text-align: center; line-height: 80px;}
+
+#bg{
+	position: fixed;
+	background-image:url(image/bg.jpg); 
+	background-size:cover; 
+	background-position:center; 
+	background-repeat:no-repeat;
+	height:700px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -9999;
+
+
+}
+#bg-title{position: absolute; top: 350px; width: 100%; text-align: center; color: white; font-size:70px; font-family: osr;}
+
+.sec{ background-color:white; position: relative; z-index: 10;}
+.sec.s1{ margin-top: 700px; }
+.sec-box{}
+
+
+.sec-title{ height:100px; margin-left: 40px; color:rgb(50,50,50); font-family: quick; }
+.sec-text{ line-height:100px; font-size: 40px;}
+.sec-header{margin-top: 20px; padding:0 160px; }
+.sec-content{margin-top: 20px; padding:0 40px; font-size: 16px; padding:0 300px;}
+
+
+
+
+
+
