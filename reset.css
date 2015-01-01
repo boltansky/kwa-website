@@ -5,5 +5,5 @@ body,p,div,h1,h2,h3,h4,ul,ol,li,dl,dt,dd,form,button,fieldset{margin:0; padding:
 body,th,td,h1,h2,h3,h4,button{ font:12px "돋움", dotum, Helvetica, sans-serif}
 ul,ol,li{list-style:none}
 img, fieldset{border:none; vertical-align:middle}
-a{text-decoration:none;} 
+a{text-decoration:none;	} 
 

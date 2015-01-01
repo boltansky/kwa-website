@@ -5,16 +5,19 @@
 @font-face{font-family: osb; src:url(fonts/OpenSans-Bold.ttf);}
 @font-face{font-family: mer; src:url(fonts/Merriweather-Regular.otf);}
 
-.box-width{ width:962px; margin:0 auto;}
+
 
 #header{height:80px; width:100%; background-color: white; position: fixed; top: 0; z-index: 10; font-size:12px; font-family: quick;}
-#header-logo{ position: fixed; background-image: url(image/logo.png); background-size:contain; background-repeat: no-repeat; background-position: center; left: 10px; top: 0; height: 80px; width: 80px;  }
-#header-title{position: fixed; left: 100px; top: 0; height: 80px; width: 400px; line-height: 80px; font-size: 24px}
-#header-en{position: fixed; right: 0; top: 0; height: 40px; width: 60px; text-align: center; line-height: 40px;}
-#header-kr{position: fixed; right: 0; top: 40px; height: 40px; width: 60px; text-align: center; line-height: 40px;}
-#header-contact{position: fixed; right: 80px; top: 0; height: 40px; width: 120px; text-align: center; line-height: 40px;}
-#header-members{position: fixed; right: 80px; top: 40px; height: 40px; width: 120px; text-align: center; line-height: 40px;}
-#header-menu{position: fixed; right: 180px; top: 0; height: 80px; width: 120px; text-align: center; line-height: 80px;}
+#head{position: relative; width: 100%; height: 80px; max-width: 960px; margin: 0 auto; }
+#header-logo{ display:inline-block; position:relative; background-image: url(image/logo.png); background-size:contain; background-repeat: no-repeat; background-position: center; top: 0; height: 80px; width: 80px; float: left; }
+#header-title{display:inline-block; position:relative; top: 0; height: 80px; width: 400px; line-height: 80px; font-size: 24px; float: left; left: 20px;}
+#lang{display:inline-block; width: 60px; height: 80px; background-color: red; position: relative; float: right;}
+#header-en{position:relative; height: 40px; width: 60px; text-align: center; line-height: 40px; }
+#header-kr{position:relative; height: 40px; width: 60px; text-align: center; line-height: 40px; }
+#other{display:inline-block; width: 120px; height: 80px; background-color: red; position: relative; float: right;}
+#header-contact{position:relative; height: 40px; width: 120px; text-align: center; line-height: 40px;}
+#header-members{position:relative; height: 40px; width: 120px; text-align: center; line-height: 40px;}
+#header-menu{display:inline-block; position:relative; height: 80px; width: 120px; text-align: center; line-height: 80px; float: right;}
 
 #bg{
 	position: fixed;
@@ -22,29 +25,40 @@
 	background-size:cover; 
 	background-position:center; 
 	background-repeat:no-repeat;
-	height:700px;
+	height:100%;
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: -9999;
+	z-index: -9999;}
+#bg-title{ position: absolute; top: 350px; width: 100%; text-align: center; color: white; font-size:70px; font-family: osr;}
+#footer{}
 
-
-}
-#bg-title{position: absolute; top: 350px; width: 100%; text-align: center; color: white; font-size:70px; font-family: osr;}
-
-.sec{ background-color:white; position: relative; z-index: 10;}
+.sec{ background-color:white; position: relative; z-index: 1; padding-bottom: 80px; max-width: 960px; margin: 0 auto; }
 .sec.s1{ margin-top: 700px; }
-.sec.s2{ background-image: url(image/research.jpg); background-position: center; background-size: cover; }
+.sec.s2{ background-image: url(image/research.jpg); background-position: center; background-size: cover; color: white;}
+.sec.s3{ background-color:rgb(200,200,200);}
+.sec.s4{ background-color:white;}
+.sec.s5{ background-color:rgb(200,200,200);}
+.sec.s6{ background-color:white;}
 
+.sec.s2 .sec-content{color: white;}
 
 .sec-box{}
 .sec-title{ height:100px; margin-left: 40px; color:rgb(50,50,50); font-family: quick; }
 .sec-text{ line-height:100px; font-size: 16px;}
-.sec-header{ margin-top: 20px; padding:0 40px; font-family: osb; font-size: 36px; line-height: 34px;}
-.sec-content{margin-top: 20px; padding:0 40px; font-size: 16px; line-height: 30px; color:rgb(100,100,100);}
+.sec-header{ margin-top: 20px; padding:0 100px; font-family: osb; font-size: 36px; line-height: 34px; }
+.sec-content{margin-top: 20px; padding:0 100px; font-size: 16px; line-height: 30px; color:rgb(100,100,100);}
 
-.research-link{width: 33%; height: 80px; background-color:black; }
+.sec-buttons{ width:calc(100% - 200px); overflow: hidden; margin:40px auto; border:1px solid rgb(70,70,70); border-left: none; color: white;}
+.research-link{ display:table; width: 33%; height: 80px; float: left; margin:0 0; text-align: center; border-left: 1px solid rgb(70,70,70);}
+.research-link:hover{background-color:rgb(30,30,30);}
+.link-text{display:table-cell; vertical-align: middle; }
 
-
-
+.sec.s3 .sec-content {overflow: hidden; text-align: center; font-size: 12px; line-height: 18px;}
+.sec.s3 .sec-content a{font-size: 18px; line-height: 18px;}
+.sec.s3 .sec-header {text-align: center;}
+.sec.s3 .sec-box{margin-bottom: 40px;}
+.sec.s3 .research-link{width: 49.9%}
+.student{ width: 190px; height: 100px; font-size: 12px; float:left; text-align: center; line-height: 18px; }
+.student a{font-size: 18px; line-height: 18px;}
 
