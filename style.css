@@ -31,16 +31,24 @@
 	width: 100%;
 	z-index: -9999;}
 #bg-title{ position: absolute; top: 350px; width: 100%; text-align: center; color: white; font-size:70px; font-family: osr;}
-#footer{}
+#content{}
 
-.sec{ background-color:white; position: relative; z-index: 1; padding-bottom: 80px; max-width: 960px; margin: 0 auto; }
-.sec.s1{ margin-top: 700px; }
+#footer{height: 80px; width: 100%; background-color: white; bottom: 0; font-size: 12px; font-family: quick; z-index: 10}
+#foot{position: relative; width: 100%; height: 80px; max-width: 960px; margin: 0 auto;}
+#foot-logo{ display:inline-block; position:relative; background-image: url(image/logo.png); background-size:contain; background-repeat: no-repeat; background-position: center; top: 0; height: 80px; width: 80px; float: left; }
+#header-credit{display:inline-block; position:relative; height: 80px; width: 120px; text-align: center; line-height: 80px; float: right;}
+
+.sec{ background-color:white; position: relative; z-index: 1; padding-bottom: 80px; width: 100%; }
+.sub-sec{width: 100%; max-width: 960px; margin: 0 auto; }
+.sec.s1{ margin-top: 700px;}
 .sec.s2{ background-image: url(image/research.jpg); background-position: center; background-size: cover; color: white;}
 .sec.s3{ background-color:rgb(200,200,200);}
-.sec.s4{ background-color:white;}
+.sec.s4{ background-color:rgba(255,0,0,0.9);}
 .sec.s5{ background-color:rgb(200,200,200);}
+.sec.gallery{ width:100%; height: 240px; padding: 0; overflow: hidden; }
 .sec.s6{ background-color:white;}
-
+.images{width: 1920px; height: 240px; margin-left: calc(50% - 960px); }
+.image{width: 240px; height: 240px; background-position: center; background-size: cover; float: left; }
 .sec.s2 .sec-content{color: white;}
 
 .sec-box{}
@@ -52,13 +60,17 @@
 .sec-buttons{ width:calc(100% - 200px); overflow: hidden; margin:40px auto; border:1px solid rgb(70,70,70); border-left: none; color: white;}
 .research-link{ display:table; width: 33%; height: 80px; float: left; margin:0 0; text-align: center; border-left: 1px solid rgb(70,70,70);}
 .research-link:hover{background-color:rgb(30,30,30);}
-.link-text{display:table-cell; vertical-align: middle; }
+.link-text{display:table-cell; vertical-align: middle; font-size: 16px; }
 
 .sec.s3 .sec-content {overflow: hidden; text-align: center; font-size: 12px; line-height: 18px;}
 .sec.s3 .sec-content a{font-size: 18px; line-height: 18px;}
 .sec.s3 .sec-header {text-align: center;}
 .sec.s3 .sec-box{margin-bottom: 40px;}
 .sec.s3 .research-link{width: 49.9%}
-.student{ width: 190px; height: 100px; font-size: 12px; float:left; text-align: center; line-height: 18px; }
-.student a{font-size: 18px; line-height: 18px;}
+.sec.s4 .sec-content{color: white;}
+.sec.s6 .sec-content{overflow: auto; background-color: red; width: 100%; height: 100px; padding: 0; }
+.sec.s6 .sec-content > div{width: 200px; display: inline-block;}
 
+.student{ width: 190px; height: 100px; font-size: 12px; float:left; text-align: center; line-height: 18px;}
+.student a{font-size: 18px; line-height: 18px;}
+.seminar{ margin-bottom: 40px;}
