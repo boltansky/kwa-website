@@ -4,7 +4,7 @@
 @font-face{font-family: osr; src:url(../fonts/OpenSans-Regular.ttf);}
 @font-face{font-family: osb; src:url(../fonts/OpenSans-Bold.ttf);}
 @font-face{font-family: mer; src:url(../fonts/Merriweather-Regular.otf);}
-
+@font-face{font-family: sertig; src:url(../fonts/sertig.otf);}
 
 
 #header{
@@ -25,7 +25,19 @@
 	margin: 0 auto; 
 }
 #header-logo{ display:inline-block; position:relative; background-image: url(../image/logo.png); background-size:contain; background-repeat: no-repeat; background-position: center; top: 0; height: 80px; width: 80px; float: left; }
-#header-title{display:inline-block; position:relative; top: 0; height: 80px; width: 400px; line-height: 80px; font-size: 24px; float: left; left: 20px; }
+#header-title{
+	display:inline-block;
+	position:relative;
+	top: 0;
+	height: 80px;
+	width: 500px;
+	line-height: 80px;
+	font-size: 20px;
+	float: left;
+	left: 20px;
+	font-family: sertig;
+	letter-spacing: 1px;
+}
 #lang{
 	display:inline-block;
 	width: 60px;
@@ -67,7 +79,98 @@
 	border-left: 1px solid rgb(220,220,220);
 }
 
-#bg{ position: fixed; background-image:url(../image/bg.jpg); background-size:cover; background-position:center; background-repeat:no-repeat; height:100%; top: 0; left: 0; width: 100%; z-index: -9999;}
+#bg{ 
+	position: fixed; 
+	height:100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+	z-index: -9999;
+}
+.slider {
+	position: absolute;
+	height: 100%;
+	top:0px;
+	left:0px;
+	/*left:-100px;*/
+}
+.slide {
+	position: absolute;
+	height: 100%;
+	top:0px;
+
+	background-size:cover;
+	background-position:center;
+}
+.bgtitle {
+	position: absolute;
+	width: 100%;
+	height:200px;
+	top:calc(50% - 50px);
+	font-size: 120px;
+	line-height: 90px;
+	text-align: center;
+	font-family: sertig;
+	color: white;
+	text-shadow: 0 0 10px rgba(0,0,0,0.75);
+}
+.bgtitle span {
+	color:rgb(230,230,230);
+	font-size: 90px;
+}
+.arrow {
+	display:none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	top:650px;
+	left:calc(50% - 25px);
+	background-image: url(../image/tri.png);
+}
+
+.dots {
+	position: absolute;
+	width: 348px;
+	height: 40px;
+	top:610px;
+	left:calc(50% - 174px);
+}
+.dot {
+	position: relative;
+	float:left;
+	width: 100px;
+	height: 40px;
+	margin: 0 8px;
+	cursor:pointer;
+}
+.dstyle {
+	position: absolute;
+	width: 100%;
+	height:4px;
+	left: 0px;
+	top:18px;
+	background:rgb(180,180,180);
+	box-shadow: 0 0 10px rgba(0,0,0,0.75);
+	transition:all 0.3s;
+}
+.dstyle.on {
+	background:white;
+	box-shadow: 0 0 10px rgba(255,255,255,0.75);
+	transition:all 0.3s;
+}
+.timer {
+	position: absolute;
+	width: 0%;
+	height: 4px;
+	background:rgba(255,0,0,0.65);
+	box-shadow: 0 0 10px rgba(0,0,0,0.75);
+	top:18px;
+	left:0px;
+	z-index: 10;
+}
+
 #bg-title{ position: absolute; top: 350px; width: 100%; text-align: center; color: white; font-size:70px; font-family: osr;}
 #content{ overflow: hidden;}
 

@@ -7,6 +7,13 @@
 @import url("css/reset.css");
 @import url("css/style.css");
 </style>
+<script src="scripts/jquery-1.11.2.min.js"></script>
+<script src="scripts/script.js"></script>
+<script>    
+    $(document).ready(function() {
+        setup();
+    });
+</script>
 </head>
 
 <body>
@@ -28,8 +35,21 @@
 
 <div id="contnet" >
 	<div id="bg">
-        <div id="bg-title">
-            The Future of Microlaser
+        <div class="slider">
+            <div class="slide" style="background-image:url(image/bg0.jpg);">
+                <div class="bgtitle"><span>The Future of</span><br>Microlasers</div>
+            </div>
+            <div class="slide" style="background-image:url(image/bg1.jpg);">
+                <div class="bgtitle"><span>How to Tame a</span><br>Schroedinger Cat</div>
+            </div>
+            <div class="slide" style="background-image:url(image/bg2.jpg);">
+                <div class="bgtitle"><span>Is the Vacuum</span><br>Really Empty?</div>
+            </div>
+        </div>
+        <div class="dots">
+            <div class="dot"><div class="timer"></div><div class="dstyle"></div></div>
+            <div class="dot"><div class="timer"></div><div class="dstyle"></div></div>
+            <div class="dot"><div class="timer"></div><div class="dstyle"></div></div>
         </div>
     </div>
 
