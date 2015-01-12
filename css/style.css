@@ -1,13 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
-@font-face{font-family: quick; src:url(fonts/Quicksand-Light.otf);}
-@font-face{font-family: osr; src:url(fonts/OpenSans-Regular.ttf);}
-@font-face{font-family: osb; src:url(fonts/OpenSans-Bold.ttf);}
-@font-face{font-family: mer; src:url(fonts/Merriweather-Regular.otf);}
+@font-face{font-family: quick; src:url(../fonts/Quicksand-Light.otf);}
+@font-face{font-family: osr; src:url(../fonts/OpenSans-Regular.ttf);}
+@font-face{font-family: osb; src:url(../fonts/OpenSans-Bold.ttf);}
+@font-face{font-family: mer; src:url(../fonts/Merriweather-Regular.otf);}
 
 
 
-#header{height:80px; width:100%; background-color: white; position: fixed; top: 0; z-index: 10; font-size:12px; font-family: quick;}
+#header{
+	height:80px; 
+	width:100%; 
+	background-color: white; 
+	position: fixed; 
+	top: 0; z-index: 10; 
+	font-size:12px; 
+	font-family: quick; 
+	border-bottom: 1px solid rgb(220,220,220);
+}
 #head{
 	position: relative; 
 	width: 100%; 
@@ -15,14 +24,36 @@
 	max-width: 960px; 
 	margin: 0 auto; 
 }
-#header-logo{ display:inline-block; position:relative; background-image: url(image/logo.png); background-size:contain; background-repeat: no-repeat; background-position: center; top: 0; height: 80px; width: 80px; float: left; }
-#header-title{display:inline-block; position:relative; top: 0; height: 80px; width: 400px; line-height: 80px; font-size: 24px; float: left; left: 20px;}
-#lang{display:inline-block; width: 60px; height: 80px; background-color: red; position: relative; float: right;}
-#header-en{position:relative; height: 40px; width: 60px; text-align: center; line-height: 40px; }
-#header-kr{position:relative; height: 40px; width: 60px; text-align: center; line-height: 40px; }
-#other{display:inline-block; width: 120px; height: 80px; background-color: red; position: relative; float: right;}
-#header-contact{position:relative; height: 40px; width: 120px; text-align: center; line-height: 40px;}
-#header-members{position:relative; height: 40px; width: 120px; text-align: center; line-height: 40px;}
+#header-logo{ display:inline-block; position:relative; background-image: url(../image/logo.png); background-size:contain; background-repeat: no-repeat; background-position: center; top: 0; height: 80px; width: 80px; float: left; }
+#header-title{display:inline-block; position:relative; top: 0; height: 80px; width: 400px; line-height: 80px; font-size: 24px; float: left; left: 20px; }
+#lang{
+	display:inline-block;
+	width: 60px;
+	height: 80px;
+	position: relative;
+	float: right;
+	border-right: 1px solid rgb(220,220,220);
+}
+#header-en{position:relative; height: 40px; width: 60px; text-align: center; line-height: 40px;  }
+#header-kr{
+	position:relative; 
+	height: 40px; 
+	width: 60px; 
+	text-align: center; 
+	line-height: 40px;
+	border-bottom: 1px solid rgb(220,220,220);
+}
+#other{display:inline-block; width: 120px; height: 80px; position: relative; float: right;}
+#header-contact{
+	position:relative; 
+	height: 40px; 
+	width: 120px; 
+	text-align: center; 
+	line-height: 40px; 
+	border-right: 1px solid rgb(220,220,220);
+	border-bottom: 1px solid rgb(220,220,220);
+}
+#header-members{position:relative; height: 40px; width: 120px; text-align: center; line-height: 40px; border-right: 1px solid rgb(220,220,220);}
 #header-menu{
 	display:inline-block; 
 	position:relative;
@@ -31,14 +62,23 @@
 	width: 120px;
 
 	text-align: center; 
-	line-height: 80px; 
+	line-height: 80px;
+	border-right: 1px solid rgb(220,220,220);
+	border-left: 1px solid rgb(220,220,220);
 }
 
-#bg{ position: fixed; background-image:url(image/bg.jpg); background-size:cover; background-position:center; background-repeat:no-repeat; height:100%; top: 0; left: 0; width: 100%; z-index: -9999;}
+#bg{ position: fixed; background-image:url(../image/bg.jpg); background-size:cover; background-position:center; background-repeat:no-repeat; height:100%; top: 0; left: 0; width: 100%; z-index: -9999;}
 #bg-title{ position: absolute; top: 350px; width: 100%; text-align: center; color: white; font-size:70px; font-family: osr;}
 #content{ overflow: hidden;}
 
-#footer{position: relative; height: 100px; width: 100%; background-color:rgb(50,50,50); bottom: 0; font-size:12px; font-family: quick;}
+#footer{position: relative; 
+	height: 100px; 
+	width: 100%; 
+	background-color:rgb(50,50,50); 
+	bottom: 0; 
+	font-size:12px; 
+	font-family: quick;
+}
 #foot{
 	vertical-align: top;
 	position: relative; 
@@ -54,7 +94,7 @@
 	width: 80px; 
 	float: left; 
 
-	background-image: url(image/logo-snu.png); 
+	background-image: url(../image/logo-snu.png); 
 	background-size:contain; 
 	background-repeat: no-repeat; 
 	background-position: center;
@@ -72,7 +112,7 @@
 	left: 20px;
 
 	color: white;
-	margin-top: 30px;
+	margin-top: 20px;
 	}
 #foot-credit{
 	display:inline-block; 
@@ -85,10 +125,18 @@
 	line-height: 80px; 
 }
 
-.sec{ background-color:white; position: relative; z-index: 1; padding-bottom: 80px; width: 100%; }
-.sub-sec{width: 100%; max-width: 960px; margin: 0 auto; }
+.sec{ 
+	background-color:white; 
+	position: relative; 
+	z-index: 1; 
+	padding-bottom: 80px; 
+	width: 100%; }
+.sub-sec{
+	width: 100%; 
+	max-width: 960px; 
+	margin: 0 auto; }
 .sec.s1{ margin-top: 700px;}
-.sec.s2{ background-image: url(image/research.jpg); background-position: center; background-size: cover; color: white;}
+.sec.s2{ background-image: url(../image/research.jpg); background-position: center; background-size: cover; color: white;}
 .sec.s3{ background-color:rgb(200,200,200);}
 .sec.s4{ background-color:rgba(255,0,0,0.9);}
 .sec.s5{ background-color:rgb(200,200,200);}
@@ -99,7 +147,11 @@
 .sec.s2 .sec-content{color: white;}
 
 .sec-box{}
-.sec-title{ height:100px; margin-left: 40px; color:rgb(50,50,50); font-family: quick; }
+.sec-title{ 
+	height:100px; 
+	color:rgb(50,50,50); 
+	font-family: quick; 
+}
 .sec-text{ line-height:100px; font-size: 16px;}
 .sec-header{ margin-top: 20px; padding:0 100px; font-family: osb; font-size: 36px; line-height: 34px; }
 .sec-content{margin-top: 20px; padding:0 100px; font-size: 16px; line-height: 30px; color:rgb(100,100,100);}
