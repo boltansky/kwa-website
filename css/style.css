@@ -77,6 +77,80 @@
 	line-height: 80px;
 	border-right: 1px solid rgb(220,220,220);
 	border-left: 1px solid rgb(220,220,220);
+
+	cursor:pointer;
+	transition: background-color 0.25s, color 0.25s;
+}
+#header-menu:hover {
+	background-color:black;
+	color:white;
+	transition: background-color 0.25s, color 0.25s;
+}
+.timer {
+	position: fixed;
+	width: 0%;
+	height: 8px;
+	background:rgba(255,0,0,0.65);
+	box-shadow: 0 0 10px rgba(255,0,0,0.5);
+	top:81px;
+	left:0px;
+	z-index: 10;
+	transition: top 0.25s;
+}
+.timer.movedown {
+	top:131px;
+	transition: top 0.25s;
+}
+.menu-bar {
+	/*display: none;*/
+	position: absolute;
+	top:81px;
+	width: 100%;
+	overflow: hidden;
+
+	height: 0px;
+	background:white;
+	transition: height 0.25s;
+	
+}
+.menu-bar.reveal {
+	height: 50px;
+	transition: height 0.25s;
+}
+.menu-items {
+	position: relative;
+	width: 840px;
+	height: 50px;
+	margin: 0 auto;
+}
+.menu-item {
+	position: relative;
+	width: 100px;
+	margin: 0 10px;
+	height: 50px;
+	line-height: 50px;
+	float:left;
+
+	text-align: center;
+	font-size: 14px;
+	overflow: hidden;
+	cursor: pointer;
+
+	background-color:white;
+	color:black;
+}
+.menu-item:hover {
+	background-color:black;
+	color:white;
+}
+.menu-closer {
+	display:none;
+	position: fixed;
+	top:139px;
+	width: 100%;
+	height: calc(100% - 139px);
+	/*background:red;*/
+	z-index: 9999;
 }
 
 #bg{ 
@@ -164,21 +238,11 @@
 	background:rgb(255,255,255);
 	transition:all 0.3s;
 }
-.timer {
-	position: fixed;
-	width: 0%;
-	height: 8px;
-	background:rgba(255,0,0,0.65);
-	box-shadow: 0 0 10px rgba(255,0,0,0.5);
-	top:81px;
-	left:0px;
-	z-index: 10;
-}
 .slit {
 	position: absolute;
 	width: 50px;
-	height: 100px;
-	top:calc(50% - 50px + 40px);
+	height: 200px;
+	top:calc(50% - 100px + 40px);
 	overflow: hidden;
 	cursor: pointer;
 }
@@ -194,7 +258,7 @@
 	position: absolute;
 	width: 50px;
 	height: 100px;
-	/*background:green;*/
+	top:50px;
 }
 .slit.left .flip {
 	left:50px;
