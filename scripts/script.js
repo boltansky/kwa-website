@@ -94,8 +94,7 @@ function setup_menubar() {
 				$('.menu-closer').css('display','none');
 				$('.timer').removeClass('movedown');
 				menubar = false;
-				$("body").animate({ scrollTop: dx - 81}, function() {
-				});
+				$("body, html").animate({ scrollTop: dx - 81});
 			}
 		})(idx));
 	}
@@ -107,6 +106,7 @@ function setup() {
 	var interval = 100.0 / scount;
 
 	$('.indicator').click(function() {
+		$("html").animate({ scrollTop: $(window).height() - 80 - 50});
 		$("body").animate({ scrollTop: $(window).height() - 80 - 50}, function() {
 			pause_slideshow();
 		});
