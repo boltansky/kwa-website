@@ -65,12 +65,14 @@ function setup_menubar() {
 	$('#header-menu').click(function() {
 		if (menubar == false) {
 			$('.menu-bar').toggleClass('reveal');
+			$('.timer').toggleClass('movedown');
 			$('.menu-closer').css('display','block');
 			menubar = true;
 		}
 		else {
 			$('.menu-bar').removeClass('reveal');
 			$('.menu-closer').css('display','none');
+			$('.timer').removeClass('movedown');
 			menubar = false;
 		}
 	});
@@ -78,6 +80,7 @@ function setup_menubar() {
 		if (menubar == true) {
 			$('.menu-bar').removeClass('reveal');
 			$('.menu-closer').css('display','none');
+			$('.timer').removeClass('movedown');
 			menubar = false;
 		}
 	})
