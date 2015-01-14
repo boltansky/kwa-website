@@ -400,7 +400,18 @@
 .sec.s3 .research-link{width: 49.9%}
 .sec.s4 .sec-content{color: white; }
 .sec.s6 .sec-content{overflow: auto; white-space: nowrap; height: 200px;}
-.sec.s6 .sec-content > div{width: 200px; height: 30px; display: inline-block; transform-origin:0; transform: rotateZ(45deg); margin-left: -160px;}
+.sec.s6 .sec-content > div{
+	width: 200px;
+	height: 30px;
+	display: inline-block;
+	transform-origin:0;
+	transform: rotateZ(45deg);
+	-webkit-transform-origin:0;
+	-webkit-transform: rotateZ(45deg);
+	-moz-transform-origin:0;
+	-moz-transform: rotateZ(45deg);
+	margin-left: -160px;
+}
 .sec.s6 .sec-content div:first-child{margin-left: 0px;}
 .sec.s6 .sec-content div a{ color: black; text-decoration: none; font-family: Arial;}
 
