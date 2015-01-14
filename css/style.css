@@ -138,8 +138,7 @@
 	width: 84px;
 	height: 20px;
 	bottom:10px;
-	left:calc(50% - 50px);
-	/*background:green;*/
+	left:calc(50% - 42px);
 }
 .dot {
 	position: relative;
@@ -179,7 +178,7 @@
 	position: absolute;
 	width: 50px;
 	height: 100px;
-	top:350px;
+	top:calc(50% - 50px + 40px);
 	overflow: hidden;
 	cursor: pointer;
 }
@@ -290,6 +289,19 @@
 	width: 100%; 
 	max-width: 960px; 
 	margin: 0 auto;
+}
+.indicator {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	/*border-bottom: 1px solid gray;*/
+	top:0px;
+	opacity: 0.75;
+	left: calc(50% - 50px);
+	cursor: pointer;
+	background-image:url(../image/moveup.png);
+	background-size: cover;
+	/*overflow: hidden;*/
 }
 .sec.s2{ background-image: url(../image/research.jpg); background-position: center; background-size: cover; color: white;}
 .sec.s3{ background-color:rgb(200,200,200);}
