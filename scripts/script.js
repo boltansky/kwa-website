@@ -21,6 +21,10 @@ function setup() {
 	scount = $('.slide').size();
 	var interval = 100.0 / scount;
 
+	$('.indicator').click(function() {
+		$("html, body").animate({ scrollTop: $(window).height() - 80 - 50});
+	});
+
 	$('.slider').css('width', '' + scount + '00%');
 	for (var idx = 0; idx < scount; idx += 1) {
 		$('.slide:eq(' + idx + ')').css('left','' + idx * interval + '%');
