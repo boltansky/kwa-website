@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
-@font-face{font-family: quick; src:url(../fonts/Quicksand-Light.otf);}
-@font-face{font-family: osr; src:url(../fonts/OpenSans-Regular.ttf);}
-@font-face{font-family: osb; src:url(../fonts/OpenSans-Bold.ttf);}
-@font-face{font-family: mer; src:url(../fonts/Merriweather-Regular.otf);}
-@font-face{font-family: sertig; src:url(../fonts/sertig.otf);}
+@font-face{font-family: quick; src:url(../Quicksand-Light.otf);}
+@font-face{font-family: osr; src:url(../OpenSans-Regular.ttf);}
+@font-face{font-family: osb; src:url(../OpenSans-Bold.ttf);}
+@font-face{font-family: mer; src:url(../Merriweather-Regular.otf);}
+@font-face{font-family: sertig; src:url(../sertig.otf);}
 
 
 #header{
@@ -397,7 +397,7 @@
 .sec.s3 .sec-content a{font-size: 18px; line-height: 18px;}
 .sec.s3 .sec-header {text-align: center;}
 .sec.s3 .sec-box{margin-bottom: 40px;}
-.sec.s3 .research-link{width: 49.9%}
+.sec.s3 .research-link{width: 49%}
 .sec.s4 .sec-content{color: white; }
 .sec.s6 .sec-content{overflow: auto; white-space: nowrap; height: 200px;}
 .sec.s6 .sec-content > div{
