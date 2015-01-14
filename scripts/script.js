@@ -12,7 +12,7 @@ function next_page() {
 	$('.slider').animate({'left':'' + page * -100 + '%'}, 500);
 	page += 1;
 	timer = setTimeout(next_page, dt);
-	if (page == 3) {
+	if (page == $('.slide').size()) {
 		page = 0;
 	}
 }
@@ -26,6 +26,9 @@ function pause_slideshow() {
 function resume_slideshow() {
 	$('.timer').css('width','0%');
 	page -= 1;
+	if (page == -1) {
+		page = $('.slide').size() - 1;
+	}
 	next_page();
 	console.log('resume');
 }
