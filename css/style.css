@@ -81,7 +81,7 @@
 
 #bg{ 
 	position: fixed; 
-	height:100%;
+	height:calc(100% - 50px);
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -107,7 +107,10 @@
 	position: absolute;
 	width: 100%;
 	height:200px;
-	top:calc(50% - 100px);
+	top:calc(50% - 100px + 40px);
+
+	padding-top:30px;
+
 	font-size: 120px;
 	line-height: 90px;
 	text-align: center;
@@ -134,7 +137,7 @@
 	position: absolute;
 	width: 84px;
 	height: 20px;
-	top:670px;
+	bottom:10px;
 	left:calc(50% - 50px);
 	/*background:green;*/
 }
@@ -150,10 +153,10 @@
 }
 .dstyle {
 	position: absolute;
-	width: 8px;
-	height:8px;
-	left: 1px;
-	top:1px;
+	width: 6px;
+	height:6px;
+	left: 2px;
+	top:2px;
 	transition:all 0.3s;
 	border-radius: 10px;
 }
@@ -214,7 +217,7 @@
 }
 
 #bg-title{ position: absolute; top: 350px; width: 100%; text-align: center; color: white; font-size:70px; font-family: osr;}
-#content{ overflow: hidden;}
+
 
 #footer{position: relative; 
 	height: 100px; 
@@ -270,6 +273,13 @@
 	line-height: 80px; 
 }
 
+#content {
+	position: absolute;
+	height: auto;
+	top:calc(100% - 50px);
+	width: 100%;
+}
+
 .sec{ 
 	background-color:white; 
 	position: relative; 
@@ -279,8 +289,8 @@
 .sub-sec{
 	width: 100%; 
 	max-width: 960px; 
-	margin: 0 auto; }
-.sec.s1{ margin-top: 700px;}
+	margin: 0 auto;
+}
 .sec.s2{ background-image: url(../image/research.jpg); background-position: center; background-size: cover; color: white;}
 .sec.s3{ background-color:rgb(200,200,200);}
 .sec.s4{ background-color:rgba(255,0,0,0.9);}
