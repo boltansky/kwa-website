@@ -293,9 +293,10 @@
 .indicator {
 	position: absolute;
 	width: 100px;
-	height: 25px;
+	height: 50px;
 	/*border-bottom: 1px solid gray;*/
-	top:12px;
+	top:0px;
+	opacity: 0.75;
 	left: calc(50% - 50px);
 	cursor: pointer;
 	background-image:url(../image/moveup.png);
