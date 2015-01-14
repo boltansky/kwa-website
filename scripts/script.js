@@ -60,6 +60,29 @@ function setup_pause() {
 	});
 }
 
+var menubar = false;
+function setup_menubar() {
+	$('#header-menu').click(function() {
+		if (menubar == false) {
+			$('.menu-bar').toggleClass('reveal');
+			$('.menu-closer').css('display','block');
+			menubar = true;
+		}
+		else {
+			$('.menu-bar').removeClass('reveal');
+			$('.menu-closer').css('display','none');
+			menubar = false;
+		}
+	});
+	$('.menu-closer').click(function() {
+		if (menubar == true) {
+			$('.menu-bar').removeClass('reveal');
+			$('.menu-closer').css('display','none');
+			menubar = false;
+		}
+	})
+}
+
 var scount;
 function setup() {
 	scount = $('.slide').size();
@@ -120,4 +143,5 @@ function setup() {
 	timer = setTimeout(next_page, dt);
 
 	setup_pause();
+	setup_menubar();
 }
