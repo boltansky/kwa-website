@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
-@font-face{font-family: quick; src:url(../fonts/Quicksand-Light.ttf);}
-@font-face{font-family: osr; src:url(../fonts/OpenSans-Regular.ttf);}
-@font-face{font-family: osb; src:url(../fonts/OpenSans-Bold.ttf);}
-@font-face{font-family: sertig; src:url(../fonts/archivo.ttf);}
+@font-face{font-family: quick; src:url(../fonts/Quicksand-Light.eot);}
+@font-face{font-family: osr; src:url(../fonts/OpenSans-Regular.eot);}
+@font-face{font-family: osb; src:url(../fonts/OpenSans-Bold.eot);}
+@font-face{font-family: sertig; src:url(../fonts/archivo.eot);}
 
 
 #header{
