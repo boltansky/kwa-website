@@ -1,0 +1,54 @@
+@font-face{
+	font-family: qs;
+	src:url(Quicksand-Light.ttf);
+}
+
+body {
+	padding: 0px; margin:0px;
+}
+.content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+	position: absolute;
+	top:calc(50% - 200px);
+	width: 100%;
+	height: 400px;
+	font-family: qs;
+	font-size: 80px;
+	color:red;
+	text-align: center;
+	line-height: 400px;
+	letter-spacing: -9px;
+	transition: letter-spacing 0.5s;
+	transition-delay: 1.0s;
+	background:rgb(240,240,240);
+}
+.title:hover {
+	letter-spacing: 0px;
+	transition: letter-spacing 0.5s;
+}
+
+.statement {
+	position: absolute;
+	top:calc(50% + 30px);
+	height:60px;
+	line-height: 60px;
+	width: 100%;
+	text-align: center;
+	font-family: qs;
+	font-size: 12px;
+}
+
+.contact {
+	position: absolute;
+	top:calc(100% - 40px);
+	height:40px;
+	width: 100%;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 10px;
+}
