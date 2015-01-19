@@ -396,7 +396,7 @@
 .images{width: 1920px; height: 240px; margin-left: calc(50% - 960px); }
 .image{width: 240px; height: 240px; background-position: center; background-size: cover; float: left; }
 .sec.s2 .sec-content{color: white;}
-.sec.s2 .sec-text{color: white;}
+.sec.s2 .sec-text{color: gray;}
 .sec.s7{ background-color:rgba(255,150,0,0.9);}
 
 .sec-box{}
