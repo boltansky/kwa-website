@@ -158,6 +158,11 @@ function setup() {
 	});
 	timer = setTimeout(next_page, dt);
 
+
+	// add for parallax effect
+	$('.parallax-sec-s2').parallax({ speed : 0.2}); 
+
+
 	setup_pause();
 	setup_menubar();
 }

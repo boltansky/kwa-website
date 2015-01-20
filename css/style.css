@@ -5,6 +5,7 @@
 @font-face{font-family: osb; src:url(../fonts/OpenSans-Bold.ttf);}
 @font-face{font-family: sertig; src:url(../fonts/archivo.ttf);}
 
+/*calc() is not compatible with IE8. All of them are replaced with % */
 
 #header{
 	height:80px; 
@@ -412,7 +413,25 @@
 	/*overflow: hidden;*/
 }
 
-.sec.s2{ background-image: url(../image/research.jpg); background-position: center; background-size: cover; color: white;}
+.sec.s2{ 
+	background-image: url(../image/research.jpg); 
+	background-position: center; 
+	background-size: cover; 
+	color: white;
+}
+
+
+/*parallax version of sec.s2*/
+.parallax-sec-s2{ 
+	background-image: url(../image/research.jpg); 
+	background-position: center; 
+	background-size: cover; 
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	color: white;
+}
+
+
 .sec.s3{ background-color:rgb(200,200,200);}
 .sec.s4{ background-color:rgba(255,0,0,0.9);}
 .sec.s5{ background-color:rgb(200,200,200);}
@@ -420,8 +439,7 @@
 .sec.s6{ background-color:white;}
 .images{width: 1920px; height: 240px; margin-left: calc(50% - 960px); }
 .image{width: 240px; height: 240px; background-position: center; background-size: cover; float: left; }
-.sec.s2 .sec-content{color: white;}
-.sec.s2 .sec-text{color: gray;}
+
 .sec.s7{ background-color:rgba(255,150,0,0.9);}
 
 .sec-box{}
@@ -433,6 +451,14 @@
 .sec-text{ line-height:100px; font-size: 16px;}
 .sec-header{ margin-top: 20px; padding:0 100px; font-family: osb; font-size: 36px; line-height: 34px; }
 .sec-content{margin-top: 20px; padding:0 100px; font-size: 16px; line-height: 30px; color:rgb(100,100,100);}
+
+.sec.s2 .sec-content{color: white;}
+.sec.s2 .sec-text{color: gray;}
+
+/*parallax version of sec.s2*/
+.parallax-sec-s2 .sec-content{color: white;}
+.parallax-sec-s2 .sec-text{color: gray;}
+
 
 .sec-buttons{ 
 /*	width:calc(100% - 200px); */
