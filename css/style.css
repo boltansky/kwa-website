@@ -422,7 +422,7 @@
 	background-image: url(../image/research.jpg); 
 	background-position: center; 
 	background-size: cover; 
-	background-repeat: no-repeat;
+/*	background-repeat: no-repeat;*/
     background-attachment: fixed;
 	color: white;
 }
