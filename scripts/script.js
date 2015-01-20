@@ -88,7 +88,7 @@ function setup_menubar() {
 		$('.menu-item:eq(' + idx + ')').click((function(n) {
 			return function() {
 				var offset = $('#content').position().top;
-				var dx = $('.sec:eq(' + n + ')').position().top + offset;
+				var dx = $('.sec:eq(' + n + ')').position().top + offset;  //move to next anchor point
 				pause_slideshow();
 				$('.menu-bar').removeClass('reveal');
 				$('.menu-closer').css('display','none');

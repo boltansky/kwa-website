@@ -392,7 +392,8 @@
 	position: relative; 
 	z-index: 1; 
 	padding-bottom: 80px; 
-	width: 100%; }
+	width: 100%; 
+}
 .sub-sec{
 	width: 100%; 
 	max-width: 960px; 
@@ -413,15 +414,10 @@
 	/*overflow: hidden;*/
 }
 
-.sec.s2{ 
-	background-image: url(../image/research.jpg); 
-	background-position: center; 
-	background-size: cover; 
-	color: white;
-}
+.sec.s2{padding-bottom: 0px;} /*dummy for correct menu anchor */
 
 
-/*parallax version of sec.s2*/
+/*parallax version of sec 2*/
 .parallax-sec-s2{ 
 	background-image: url(../image/research.jpg); 
 	background-position: center; 
