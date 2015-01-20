@@ -23,7 +23,7 @@
 	max-width: 960px; 
 	margin: 0 auto; 
 }
-#header-logo{ display:inline-block; position:relative; background-image: url(../image/logo.png); background-size:contain; background-repeat: no-repeat; background-position: center; top: 0; height: 80px; width: 80px; float: left; }
+#header-logo{ display:inline-block; position:relative; background-image: url(../image/logo-small2.png); background-size:contain; background-repeat: no-repeat; background-position: center; top: 0; height: 80px; width: 80px; float: left; }
 #header-title{
 	display:inline-block;
 	position:relative;
@@ -175,13 +175,17 @@
 
 #bg{ 
 	position: fixed; 
-	height:calc(100% - 50px);
+/*	height:calc(100% - 50px);*/
+	height:100%;
 	width: 100%;
 	top: 0;
 	left: 0;
 
 	z-index: -9999;
+
 }
+
+
 .slider {
 	position: absolute;
 	height: 100%;
@@ -189,11 +193,11 @@
 	left:0px;
 	/*left:-100px;*/
 }
+
 .slide {
 	position: absolute;
 	height: 100%;
 	top:0px;
-
 	background-size:cover;
 	background-position:center;
 }
@@ -201,8 +205,8 @@
 	position: absolute;
 	width: 100%;
 	height:200px;
-	top:calc(50% - 100px + 40px);
-
+/*	top:calc(50% - 100px + 40px);*/
+	top:40%;
 	padding-top:30px;
 
 	font-size: 120px;
@@ -223,7 +227,8 @@
 	height: 50px;
 	background-size: cover;
 	top:650px;
-	left:calc(50% - 25px);
+/*	left:calc(50% - 25px);*/
+	left:50%;
 	background-image: url(../image/tri.png);
 }
 
@@ -232,7 +237,8 @@
 	width: 84px;
 	height: 20px;
 	bottom:10px;
-	left:calc(50% - 42px);
+/*	left:calc(50% - 42px);*/
+	left:50%;
 }
 .dot {
 	position: relative;
@@ -262,7 +268,8 @@
 	position: absolute;
 	width: 50px;
 	height: 200px;
-	top:calc(50% - 100px + 40px);
+/*	top:calc(50% - 100px + 40px);*/
+	top:45%;
 	overflow: hidden;
 	cursor: pointer;
 }
@@ -325,7 +332,7 @@
 	width: 80px; 
 	float: left; 
 
-	background-image: url(../image/logo-snu.png); 
+	background-image: url(../image/logo-snu-small.png); 
 	background-size:contain; 
 	background-repeat: no-repeat; 
 	background-position: center;
@@ -359,7 +366,8 @@
 #content {
 	position: absolute;
 	height: auto;
-	top:calc(100% - 50px);
+/*	top:calc(100% - 50px);*/
+	top:100%;
 	width: 100%;
 }
 
@@ -381,12 +389,14 @@
 	/*border-bottom: 1px solid gray;*/
 	top:0px;
 	opacity: 0.75;
-	left: calc(50% - 50px);
+/*	left: calc(50% - 50px);*/
+	left: 50%;
 	cursor: pointer;
 	background-image:url(../image/moveup.png);
 	background-size: cover;
 	/*overflow: hidden;*/
 }
+
 .sec.s2{ background-image: url(../image/research.jpg); background-position: center; background-size: cover; color: white;}
 .sec.s3{ background-color:rgb(200,200,200);}
 .sec.s4{ background-color:rgba(255,0,0,0.9);}
@@ -409,8 +419,26 @@
 .sec-header{ margin-top: 20px; padding:0 100px; font-family: osb; font-size: 36px; line-height: 34px; }
 .sec-content{margin-top: 20px; padding:0 100px; font-size: 16px; line-height: 30px; color:rgb(100,100,100);}
 
-.sec-buttons{ width:calc(100% - 200px); overflow: hidden; margin:40px auto; border:1px solid rgb(70,70,70); border-left: none; color: white;}
-.research-link{ display:table; width: 33%; height: 80px; float: left; margin:0 0; text-align: center; border-left: 1px solid rgb(70,70,70);}
+.sec-buttons{ 
+/*	width:calc(100% - 200px); */
+	width:80%; 
+	overflow: hidden; 
+	margin:40px auto; 
+	border:1px solid rgb(70,70,70); 
+	border-left: none; color: white;
+}
+
+.research-link{ 
+	display:table; 
+	width: 33%; 
+	height: 80px; 
+/*	line-height: 40px;*/
+	float: left; 
+	margin:0 0; 
+	text-align: center; 
+	border-left: 1px solid rgb(70,70,70);
+}
+
 .research-link:hover{background-color:rgb(30,30,30);}
 .link-text{display:table-cell; vertical-align: middle; font-size: 16px; }
 
@@ -431,7 +459,10 @@
 	-webkit-transform: rotateZ(45deg);
 	-moz-transform-origin:0;
 	-moz-transform: rotateZ(45deg);
+/*	-ms-transform-origin:0;
+	-ms-transform: rotate(45deg)*/
 	margin-left: -160px;
+	margin-left:0px\9; /*only for IE8 and below*/
 }
 .sec.s6 .sec-content div:first-child{margin-left: 0px;}
 .sec.s6 .sec-content div a{ color: black; text-decoration: none; font-family: Arial;}
