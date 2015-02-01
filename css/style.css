@@ -476,8 +476,8 @@
 	border-left: 1px solid rgb(70,70,70);
 }
 
-.research-link:hover{background-color:rgb(30,30,30);}
-/*.research-link:hover{background-color:gray;}*/
+/*.research-link:hover{background-color:rgb(30,30,30);}*/
+.research-link:hover{background-color:gray;}
 .link-text{display:table-cell; vertical-align: middle; font-size: 16px; }
 
 .sec.s3 .sec-content {overflow: hidden; text-align: center; font-size: 12px; line-height: 18px;}
