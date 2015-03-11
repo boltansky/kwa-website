@@ -53,7 +53,12 @@
 	text-align: center; line-height: 40px;  
 	border-left: 1px solid rgb(220,220,220);
 	border-bottom: 1px solid rgb(220,220,220);
-	}
+}
+#header-en:hover {
+	background-color:gray;
+	color:white;
+	transition: background-color 0.25s, color 0.25s;
+}
 #header-kr{
 	position:relative; 
 	height: 40px; 
@@ -62,6 +67,11 @@
 	line-height: 40px;
 	border-bottom: 1px solid rgb(220,220,220);
 	border-left: 1px solid rgb(220,220,220);
+}
+#header-kr:hover {
+	background-color:gray;
+	color:white;
+	transition: background-color 0.25s, color 0.25s;
 }
 #other{display:inline-block; width: 120px; height: 80px; position: relative; float: right;}
 #header-contact{
@@ -235,6 +245,10 @@
 .bgtitle span {
 	color:rgb(230,230,230);
 	font-size: 90px;
+}
+.bgtitle span2 {
+	color:rgb(230,230,230);
+	font-size: 70px;
 }
 .arrow {
 	display:none;
