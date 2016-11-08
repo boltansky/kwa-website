@@ -481,7 +481,7 @@
 
 .research-link{ 
 	display:table; 
-	width: 33.3%; /* 33% */
+	width: 33%; /* 33.3% */
 	height: 80px; 
 /*	line-height: 40px;*/
 	float: left; 
@@ -492,7 +492,7 @@
 
 .research-link4{ 
 	display:table; 
-	width: 24.9%; /* 33% */
+	width: 24%; /* 24.9% */
 	height: 80px; 
 /*	line-height: 40px;*/
 	float: left; 
