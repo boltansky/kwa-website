@@ -5,6 +5,7 @@
 @font-face{font-family: osb; src:url(../fonts/OpenSans-Bold.ttf);}
 @font-face{font-family: sertig; src:url(../fonts/archivo.ttf);}
 
+/*calc() is not compatible with IE8. All of them are replaced with % */
 
 #header{
 	height:80px; 
@@ -52,7 +53,12 @@
 	text-align: center; line-height: 40px;  
 	border-left: 1px solid rgb(220,220,220);
 	border-bottom: 1px solid rgb(220,220,220);
-	}
+}
+#header-en:hover {
+	background-color:gray;
+	color:white;
+	transition: background-color 0.25s, color 0.25s;
+}
 #header-kr{
 	position:relative; 
 	height: 40px; 
@@ -61,6 +67,11 @@
 	line-height: 40px;
 	border-bottom: 1px solid rgb(220,220,220);
 	border-left: 1px solid rgb(220,220,220);
+}
+#header-kr:hover {
+	background-color:gray;
+	color:white;
+	transition: background-color 0.25s, color 0.25s;
 }
 #other{display:inline-block; width: 120px; height: 80px; position: relative; float: right;}
 #header-contact{
@@ -72,6 +83,13 @@
 /*	border-right: 1px solid rgb(220,220,220);*/
 	border-left: 1px solid rgb(220,220,220);
 	border-bottom: 1px solid rgb(220,220,220);
+	cursor:pointer;
+	transition: background-color 0.25s, color 0.25s;
+	}
+#header-contact:hover {
+	background-color:gray;
+	color:white;
+	transition: background-color 0.25s, color 0.25s;
 }
 #header-recruit{
 	position:relative; 
@@ -81,7 +99,15 @@
 	line-height: 40px; 
 /*	border-right: 1px solid rgb(220,220,220);*/
 	border-left: 1px solid rgb(220,220,220);
-	border-bottom: 1px solid rgb(220,220,220);}
+	border-bottom: 1px solid rgb(220,220,220);
+	cursor:pointer;
+	transition: background-color 0.25s, color 0.25s;
+	}
+#header-recruit:hover {
+	background-color:gray;
+	color:white;
+	transition: background-color 0.25s, color 0.25s;
+}
 #header-menu{
 	display:inline-block; 
 	position:relative;
@@ -98,7 +124,7 @@
 	transition: background-color 0.25s, color 0.25s;
 }
 #header-menu:hover {
-	background-color:black;
+	background-color:gray;
 	color:white;
 	transition: background-color 0.25s, color 0.25s;
 }
@@ -160,7 +186,7 @@
 	color:black;
 }
 .menu-item:hover {
-	background-color:black;
+	background-color:gray;
 	color:white;
 }
 .menu-closer {
@@ -219,6 +245,10 @@
 .bgtitle span {
 	color:rgb(230,230,230);
 	font-size: 90px;
+}
+.bgtitle span2 {
+	color:rgb(230,230,230);
+	font-size: 70px;
 }
 .arrow {
 	display:none;
@@ -376,7 +406,8 @@
 	position: relative; 
 	z-index: 1; 
 	padding-bottom: 80px; 
-	width: 100%; }
+	width: 100%; 
+}
 .sub-sec{
 	width: 100%; 
 	max-width: 960px; 
@@ -397,7 +428,20 @@
 	/*overflow: hidden;*/
 }
 
-.sec.s2{ background-image: url(../image/research.jpg); background-position: center; background-size: cover; color: white;}
+.sec.s2{padding-bottom: 0px;} /*dummy for correct menu anchor */
+
+
+/*parallax version of sec 2*/
+.parallax-sec-s2{ 
+	background-image: url(../image/research.jpg); 
+	background-position: center; 
+	background-size: cover; 
+/*	background-repeat: no-repeat;*/
+    background-attachment: fixed;
+	color: white;
+}
+
+
 .sec.s3{ background-color:rgb(200,200,200);}
 .sec.s4{ background-color:rgba(255,0,0,0.9);}
 .sec.s5{ background-color:rgb(200,200,200);}
@@ -405,8 +449,7 @@
 .sec.s6{ background-color:white;}
 .images{width: 1920px; height: 240px; margin-left: calc(50% - 960px); }
 .image{width: 240px; height: 240px; background-position: center; background-size: cover; float: left; }
-.sec.s2 .sec-content{color: white;}
-.sec.s2 .sec-text{color: gray;}
+
 .sec.s7{ background-color:rgba(255,150,0,0.9);}
 
 .sec-box{}
@@ -419,6 +462,14 @@
 .sec-header{ margin-top: 20px; padding:0 100px; font-family: osb; font-size: 36px; line-height: 34px; }
 .sec-content{margin-top: 20px; padding:0 100px; font-size: 16px; line-height: 30px; color:rgb(100,100,100);}
 
+.sec.s2 .sec-content{color: white;}
+.sec.s2 .sec-text{color: gray;}
+
+/*parallax version of sec.s2*/
+.parallax-sec-s2 .sec-content{color: white;}
+.parallax-sec-s2 .sec-text{color: gray;}
+
+
 .sec-buttons{ 
 /*	width:calc(100% - 200px); */
 	width:80%; 
@@ -430,7 +481,7 @@
 
 .research-link{ 
 	display:table; 
-	width: 33%; 
+	width: 33%; /* 33.3% */
 	height: 80px; 
 /*	line-height: 40px;*/
 	float: left; 
@@ -439,7 +490,20 @@
 	border-left: 1px solid rgb(70,70,70);
 }
 
-.research-link:hover{background-color:rgb(30,30,30);}
+.research-link4{ 
+	display:table; 
+	width: 24%; /* 24.9% */
+	height: 80px; 
+/*	line-height: 40px;*/
+	float: left; 
+	margin:0 0; 
+	text-align: center; 
+	border-left: 1px solid rgb(70,70,70);
+}
+
+/*.research-link:hover{background-color:rgb(30,30,30);}*/
+.research-link:hover{background-color:gray;}
+.research-link4:hover{background-color:gray;}
 .link-text{display:table-cell; vertical-align: middle; font-size: 16px; }
 
 .sec.s3 .sec-content {overflow: hidden; text-align: center; font-size: 12px; line-height: 18px;}

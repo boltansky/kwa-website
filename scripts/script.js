@@ -88,7 +88,7 @@ function setup_menubar() {
 		$('.menu-item:eq(' + idx + ')').click((function(n) {
 			return function() {
 				var offset = $('#content').position().top;
-				var dx = $('.sec:eq(' + n + ')').position().top + offset;
+				var dx = $('.sec:eq(' + n + ')').position().top + offset;  //move to next anchor point
 				pause_slideshow();
 				$('.menu-bar').removeClass('reveal');
 				$('.menu-closer').css('display','none');
@@ -157,6 +157,11 @@ function setup() {
 		$('.timer').css('width', '0%');
 	});
 	timer = setTimeout(next_page, dt);
+
+
+	// add for parallax effect
+	$('.parallax-sec-s2').parallax({ speed : 0.2}); 
+
 
 	setup_pause();
 	setup_menubar();
