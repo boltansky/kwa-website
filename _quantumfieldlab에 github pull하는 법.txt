@@ -1,0 +1,5 @@
+홈페이지 수정은 기존처럼 GitHub의 `dad-changes` branch에서 한다.
+ssh -p  2222  coolatamaster@192.168.0.91 로 NAS에 로그인 한다.
+    cd /volume1/web
+    git status
+    git pull --ff-only
