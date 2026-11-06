@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:A78580CF-CECB-4992-960F-61274E2F6726</id>
+ <title>Page list Atom feed</title>
+ <updated>2010-05-26T16:49:12+09:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:C7AC5B1D-5A98-4454-8FD1-0BBD7AAA8E43</id>
+  <title>Home</title>
+  <title xmlns="urn:iweb:">Home</title>
+  <in-navbar xmlns="urn:iweb:">C7AC5B1D-5A98-4454-8FD1-0BBD7AAA8E43</in-navbar>
+  <link rel="alternate" href="Home.html"/>
+  <updated>2010-05-26T16:49:12.001+09:00</updated>
+  <content>Home</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:14907B9E-E2BB-4D25-A521-682F2C4C2198</id>
+  <title>등록</title>
+  <title xmlns="urn:iweb:">등록</title>
+  <in-navbar xmlns="urn:iweb:">14907B9E-E2BB-4D25-A521-682F2C4C2198</in-navbar>
+  <link rel="alternate" href="deunglog.html"/>
+  <updated>2010-05-26T16:49:12.002+09:00</updated>
+  <content>등록</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:831B6A29-56B6-453D-9F0A-A254A5A74143</id>
+  <title>주요 일정</title>
+  <title xmlns="urn:iweb:">주요 일정</title>
+  <in-navbar xmlns="urn:iweb:">831B6A29-56B6-453D-9F0A-A254A5A74143</in-navbar>
+  <link rel="alternate" href="juyo_iljeong.html"/>
+  <updated>2010-05-26T16:49:12.003+09:00</updated>
+  <content>주요 일정</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:82C8A967-CCB6-4D98-B382-98A8FF936A61</id>
+  <title>기타 행사</title>
+  <title xmlns="urn:iweb:">기타 행사</title>
+  <in-navbar xmlns="urn:iweb:">82C8A967-CCB6-4D98-B382-98A8FF936A61</in-navbar>
+  <link rel="alternate" href="gita_haengsa.html"/>
+  <updated>2010-05-26T16:49:12.004+09:00</updated>
+  <content>기타 행사</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:F68FC1AE-6310-4675-8220-36874853BB61</id>
+  <title>프로그램</title>
+  <title xmlns="urn:iweb:">프로그램</title>
+  <in-navbar xmlns="urn:iweb:">F68FC1AE-6310-4675-8220-36874853BB61</in-navbar>
+  <link rel="alternate" href="peulogeulaem.html"/>
+  <updated>2010-05-26T16:49:12.005+09:00</updated>
+  <content>프로그램</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:FF99B8AE-1BF6-42BB-B7CE-800FB1A52007</id>
+  <title>숙소</title>
+  <title xmlns="urn:iweb:">숙소</title>
+  <in-navbar xmlns="urn:iweb:">FF99B8AE-1BF6-42BB-B7CE-800FB1A52007</in-navbar>
+  <link rel="alternate" href="sugso.html"/>
+  <updated>2010-05-26T16:49:12.006+09:00</updated>
+  <content>숙소</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:B8234762-AC04-417C-AC72-07005BB74D22</id>
+  <title>연락처</title>
+  <title xmlns="urn:iweb:">연락처</title>
+  <in-navbar xmlns="urn:iweb:">B8234762-AC04-417C-AC72-07005BB74D22</in-navbar>
+  <link rel="alternate" href="yeonlagcheo.html"/>
+  <updated>2010-05-26T16:49:12.007+09:00</updated>
+  <content>연락처</content>
+ </entry>
+</feed>

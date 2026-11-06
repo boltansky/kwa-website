@@ -165,7 +165,7 @@
 }
 .menu-items {
 	position: relative;
-	width: 840px;
+	width: 960px;
 	height: 50px;
 	margin: 0 auto;
 }
@@ -447,6 +447,7 @@
 .sec.s5{ background-color:rgb(200,200,200);}
 .sec.gallery{ width:100%; height: 240px; padding: 0; overflow: hidden; }
 .sec.s6{ background-color:white;}
+.sec.s8{ background-color:rgb(200,200,200);}
 .images{width: 1920px; height: 240px; margin-left: calc(50% - 960px); }
 .image{width: 240px; height: 240px; background-position: center; background-size: cover; float: left; }
 
@@ -492,7 +493,7 @@
 
 .research-link4{ 
 	display:table; 
-	width: 24%; /* 24.9% */
+	width: 33%; /* 24.9% */
 	height: 80px; 
 /*	line-height: 40px;*/
 	float: left; 
@@ -501,9 +502,12 @@
 	border-left: 1px solid rgb(70,70,70);
 }
 
+
 /*.research-link:hover{background-color:rgb(30,30,30);}*/
 .research-link:hover{background-color:gray;}
 .research-link4:hover{background-color:gray;}
+
+
 .link-text{display:table-cell; vertical-align: middle; font-size: 16px; }
 
 .sec.s3 .sec-content {overflow: hidden; text-align: center; font-size: 12px; line-height: 18px;}
@@ -531,6 +535,7 @@
 .sec.s6 .sec-content div:first-child{margin-left: 0px;}
 .sec.s6 .sec-content div a{ color: black; text-decoration: none; font-family: Arial;}
 
+.sec.s7 .research-link{width: 98%}
 
 .student{ width: 190px; height: 100px; font-size: 12px; float:left; text-align: center; line-height: 18px;}
 .student a{font-size: 18px; line-height: 18px;}

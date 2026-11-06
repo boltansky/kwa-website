@@ -1,0 +1,100 @@
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<title>SNU BEC group Type2 WCU Project</title>
+<meta name="generator" content="Namo WebEditor v6.0">
+<style>
+<!--
+a:link { text-decoration:none; }
+a:visited { text-decoration:none; }
+a:active { text-decoration:none; }
+a:hover { text-decoration:none; }
+-->
+</style>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="purple" alink="red">
+<div align="left">
+
+
+
+</div>
+<div align="left">
+    <table width="750" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="744" bgcolor="white">
+<div align="center"> 
+                    <p align="left" style="line-height:100%; margin-top:0; margin-bottom:0;"><img src="images/top.jpg" width="752" height="112" border="0"></p>
+
+
+</div>
+<font size="5"><div align="center"> 
+
+
+
+</div>
+</font>
+</td>
+        </tr>
+        <tr>
+            <td width="744" height="18" bordercolor="black" bgcolor="#CCCCCC">
+<div align="center">
+                    <p align="center"><font color="#666666"><span style="font-family:Helvetica; font-size:12pt;"><a href="index.htm">Home</a> |&nbsp;<a href="people.htm">People</a> |&nbsp;<a href="research.htm">Research</a> |&nbsp;<a href="education.htm">Education</a> | <a href="activities.htm">Activities</a> | <a href="results.htm">Results</a></span></font></p>
+
+</div>                
+            </td>
+        </tr>
+    </table>
+    <table border="0" width="597" align="center">
+        <tr>
+            <td width="591">
+                <p align="left">&nbsp;</p>
+                <p align="left" style="line-height:200%;"><b><font face="Helvetica" color="#9900FF"><span style="font-size:20pt;">Foreign Scholar Activities</span></font></b><font face="Bodoni MT"></font></p>
+
+
+<p class=MsoNormal align="justify" style="text-align:justify; text-indent:0px; line-height:150%; tab-stops:28.3pt 56.65pt 85.0pt 113.35pt 141.7pt 170.05pt 198.4pt 226.75pt 255.1pt 283.45pt 311.8pt 340.15pt;
+mso-layout-grid-align:none;word-break:keep-all"><font face="Bodoni MT"><span style="font-family:Helvetica; font-size:11pt;">
+April 1, 2009: Presented Physics Colloquium at Seoul National University. &quot;Pairing in a Strongly Interacting Fermi Gas&quot;</span></font></p>
+
+<p class=MsoNormal align="justify" style="text-align:justify; text-indent:0px; line-height:150%; tab-stops:28.3pt 56.65pt 85.0pt 113.35pt 141.7pt 170.05pt 198.4pt 226.75pt 255.1pt 283.45pt 311.8pt 340.15pt;
+mso-layout-grid-align:none;word-break:keep-all"><font face="Bodoni MT"><span style="font-family:Helvetica; font-size:11pt;">
+June 18, 2009: Visited the cold-atom group (Dr. Jong-Chul Moon) at the Korea Research Institute of Standards and Science (KRISS) and provided technical views on the on-going experiments there.</span></font></p>
+
+<p class=MsoNormal align="justify" style="text-align:justify; text-indent:0px; line-height:150%; tab-stops:28.3pt 56.65pt 85.0pt 113.35pt 141.7pt 170.05pt 198.4pt 226.75pt 255.1pt 283.45pt 311.8pt 340.15pt;
+mso-layout-grid-align:none;word-break:keep-all"><font face="Bodoni MT"><span style="font-family:Helvetica; font-size:11pt;">
+August 21, 2009: Presented Physics Seminar at Pusan National University. &quot;Controlling and measuring the relative phase of two spatially separate BECs&quot;</span></font></p>
+
+                <p class=MsoNormal align="justify" style="text-align:justify; text-indent:0px; line-height:150%; tab-stops:28.3pt 56.65pt 85.0pt 113.35pt 141.7pt 170.05pt 198.4pt 226.75pt 255.1pt 283.45pt 311.8pt 340.15pt;
+mso-layout-grid-align:none;word-break:keep-all"><font face="Bodoni MT"><span style="font-family:Helvetica; font-size:11pt;">
+September 1, 2009: Started to teach a special seminar on Bose-Einstein condensates at Seoul National University.</span></font></p>
+
+                <p class=MsoNormal align="justify" style="text-align:justify; text-indent:0px; line-height:150%; tab-stops:28.3pt 56.65pt 85.0pt 113.35pt 141.7pt 170.05pt 198.4pt 226.75pt 255.1pt 283.45pt 311.8pt 340.15pt;
+mso-layout-grid-align:none;word-break:keep-all"><font face="Bodoni MT"><span style="font-family:Helvetica; font-size:11pt;">
+October 20, 2009: To present an invited talk at The Optical Society of Korea 20th Anniversary Special Meeting in Gwangju. &quot;Pairing in an imbalanced Fermi gas&quot;</span></font></p>
+
+                <p class=MsoNormal align="justify" style="text-align:justify; text-indent:10px; tab-stops:28.3pt 56.65pt 85.0pt 113.35pt 141.7pt 170.05pt 198.4pt 226.75pt 255.1pt 283.45pt 311.8pt 340.15pt;
+mso-layout-grid-align:none;word-break:keep-all"><span style="font-size:13pt;"></span></p>
+
+
+                </td>
+        </tr>
+    </table>
+
+    <table border="0" width="750" align="center">
+        <tr>
+            <td width="744" valign="top">
+                
+                
+                
+                
+                <p align="center">&nbsp;</p>
+</td>
+        </tr>
+    </table>
+
+</div>
+<p>&nbsp;</p>
+</body>
+
+</html>
